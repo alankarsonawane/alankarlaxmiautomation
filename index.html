@@ -141,7 +141,7 @@ animation:slider 15s infinite linear;
   
   .director{
     width:100%;
-    height:1900px;
+    height:2900px;
     background-image: url('images/bluebg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -172,6 +172,21 @@ animation:slider 15s infinite linear;
     font-weight:bold;
   }
   
+  .icons{
+    width:300px;
+    height:280px;
+    background-color: white;
+    border-radius:10%;
+  }
+  
+  .icons i{
+    font-size:120px;
+    color:green;
+  }
+  
+  .icons h1{
+    color:blue;
+  }
 .contactUs{
   margin-top:30px;
   width:100%;
@@ -385,7 +400,7 @@ background-size: 100% 100%;
       <div class="director">
         <center>
           <h3>ABOUT US</h3>
-        <img src="images/director1.jpg" width="300px" height="300px" alt="director"><br>
+        <img src="images/director1.jpg" width="300px" height="300px" alt="director" data-aos="zoom-in"><br>
         <h2>Vidyanand Choudhary</h2><br>
         <h3>Managing Director</h3>
         </center>
@@ -408,6 +423,21 @@ background-size: 100% 100%;
         <img src="images/cardbg4.jpg" width="300" height="180px" data-aos="zoom-in"><br>
         <h2>Automate your office with High End Technology</h2>
         <br>
+        <div class="icons" data-aos="zoom-in">
+          <br>
+          <i class="fa fa-address-card"></i><br><br>
+          <h1>Adavanced Attendance Unit</h1>
+        </div><br><br>
+        <div class="icons" data-aos="zoom-in">
+        <br>
+        <i class="fa fa-video-camera"></i><br><br>
+        <h1>Video Maangement CCTV Security</h1>
+        </div><br><br>
+        <div class="icons" data-aos="zoom-in">
+          <br>
+          <i class="fa fa-sitemap"></i><br><br>
+          <h1>Networking Solutions</h1>
+        </div><br><br>
          <button>View our Products</button>
         <br>
        <br>
@@ -451,8 +481,6 @@ background-size: 100% 100%;
 
         </div>
         </div>
-        <br>
-        
          <div class="loader" id="loader">
 
   <center>
@@ -495,7 +523,7 @@ background-size: 100% 100%;
       loader.style.display = "none";
     }
     
-    setTimeout(loadout, 8000);
+    setTimeout(loadout, 3000);
     
     const body = document.getElementById('container');
     
@@ -505,7 +533,7 @@ background-size: 100% 100%;
       body.style.display = "block";
     }
     
-    setTimeout(showBody, 8000);
+    setTimeout(showBody, 3000);
 
 
   </script>
